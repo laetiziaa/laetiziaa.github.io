@@ -1,0 +1,42 @@
+header {
+  background-color: #f7cecd;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 600;
+  padding: 18px 0px;
+
+  text-align: center;
+}
+
+@media only screen and (max-width: 685px) {
+  header {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 549px) {
+  header {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 446px) {
+  header {
+    font-size: 11px;
+  }
+}
+@media only screen and (max-width: 377px) {
+  header {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 344px) {
+  header {
+    font-size: 9px;
+    padding: 9px 0px;
+  }
+}
+.nav-link {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: bold;
+}

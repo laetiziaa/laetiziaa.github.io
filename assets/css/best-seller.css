@@ -1,0 +1,82 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+h4 {
+  display: flex;
+  flex-direction: row;
+}
+
+h4:before,
+h4:after {
+}
+
+.title {
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  margin: 25px 0px
+}
+
+#best-seller {
+  margin-top: 102px;
+  margin-bottom: 102px;
+}
+
+#best-seller > .row > .title > p {
+  font-weight: 700;
+  font-size: 20px;
+  font-family: "Poppins";
+  display: flex;
+  flex-direction: row;
+}
+
+#best-seller > .row > .title > p::before,
+p::after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 2px solid #000;
+  margin: auto 23px;
+}
+
+.products-row {
+  margin-top: 83px;
+}
+
+.product {
+  border: none;
+}
+
+.product-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: "Poppins";
+  margin-top: 16px;
+  margin-bottom: 6px;
+}
+
+.product-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  font-family: "Poppins";
+}
+
+#flair-mood {
+  padding: 35px 106px 132px 106px;
+  background-color: #f4eb99;
+}
+
+.title-flair-mood {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 47px;
+  line-height: 56px;
+  letter-spacing: 0.06em;
+  color: #000000;
+  text-align: center;
+  padding: 50px;
+}
